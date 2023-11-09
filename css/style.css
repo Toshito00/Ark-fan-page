@@ -88,6 +88,12 @@ main > h1{
     width: 100%;
 }
 
+.mapa{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 40%;
+}
 
 #info{
     gap: 10px;
