@@ -102,12 +102,6 @@ main > h1{
 
 }
 
-@media (max-width: 480px) {
-    
-    .sobreeljuego{
-        grid-template-columns: 1fr;
-    }
-    
-}
+
 
 
