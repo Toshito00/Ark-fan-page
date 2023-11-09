@@ -99,6 +99,10 @@ main > h1{
     .container{
         grid-template-columns: 1fr;
     }
+
+    .sobreeljuego{
+        grid-template-columns: 1fr;
+    }
     
 }
 
