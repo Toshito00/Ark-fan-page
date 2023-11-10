@@ -5,9 +5,6 @@ ul {
     padding: 0;
   
     li a {
-      -webkit-animation:swirl-in-fwd .6s ease-out both;
-      animation:swirl-in-fwd .6s ease-out both;
-
       text-decoration: none;
       color: black;
       font-family: 'Merriweather', serif;
@@ -15,6 +12,3 @@ ul {
     }
   }
 
-@-webkit-keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%
-{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}@keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%
-{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}
