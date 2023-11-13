@@ -1,0 +1,14 @@
+@media (max-width: 480px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .arkmap{
+        flex-direction: column;
+    }
+
+    .mapa{
+        width: 100%;
+    }
+
+}

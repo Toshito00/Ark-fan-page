@@ -1,0 +1,65 @@
+main > h1{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+            color: rgba(0, 4, 255, 0.63);
+           
+        }
+
+        img{
+            width : 60%;
+             
+         }
+
+        p{
+            font-family: 'Merriweather', serif;
+            font-weight: 300;
+            margin: 0   50px;
+        }
+
+        div{
+            #maps{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-right: 40%;
+                width: 100%;
+                padding: 0;
+                .arkmap{
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    .mapa{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0;
+                        width: 40%;
+                    }
+                }
+            }
+            
+            #info{
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                   
+                .portada{
+                   display: flex;
+                   flex-direction: column;
+                   align-self: center;
+                }
+            }
+            
+    
+        }
+
+    }
+}
