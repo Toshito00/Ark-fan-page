@@ -17,6 +17,8 @@ ul li a{
     color: black;
     font-family: 'Merriweather', serif;
     font-weight: 300;
+    padding: .5rem;
+    background-color: blanchedalmond;
 }
 
 h1{
@@ -96,6 +98,12 @@ main > h1{
     flex-direction: column;
     padding: 0;
     width: 40%;
+}
+
+.portada{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 #info{
