@@ -10,4 +10,22 @@ footer{
     
     }
     
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+        
+        li {
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Merriweather', serif;
+                font-weight: 300;
+                padding: .5rem;
+                background-color: blanchedalmond;
+            }
+        }
+    }
+
 }

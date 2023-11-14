@@ -22,7 +22,7 @@ header ul {
   gap: 1rem;
   padding: 0;
 }
-header ul ul li a {
+header ul li a {
   text-decoration: none;
   color: black;
   font-family: "Merriweather", serif;
@@ -94,6 +94,20 @@ footer h2 {
   font-weight: 300;
   color: rgb(98, 190, 6);
   text-align: center;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  padding: 0.5rem;
+  background-color: blanchedalmond;
 }
 
 @media (max-width: 480px) {
