@@ -41,15 +41,15 @@ main > h1 section {
   flex-direction: column;
   align-items: center;
 }
-main > h1 section h1 {
+main > h1 section div h1 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   color: rgba(0, 4, 255, 0.63);
 }
-main > h1 section img {
+main > h1 section div img {
   width: 60%;
 }
-main > h1 section p {
+main > h1 section div p {
   font-family: "Merriweather", serif;
   font-weight: 300;
   margin: 0 50px;

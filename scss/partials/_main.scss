@@ -7,24 +7,23 @@ main > h1{
         display: flex;
         flex-direction: column;
         align-items: center;
-        h1{
-            font-family: 'Merriweather', serif;
-            font-weight: 700;
-            color: rgba(0, 4, 255, 0.63);
-           
-        }
+       div{
+          h1{
+             font-family: 'Merriweather', serif;
+             font-weight: 700;
+             color: rgba(0, 4, 255, 0.63);
+            }
 
-        img{
-            width : 60%;
-             
-        }
+           img{
+             width : 60%;
+            }
 
-        p{
-            font-family: 'Merriweather', serif;
-            font-weight: 300;
-            margin: 0   50px;
+           p{
+             font-family: 'Merriweather', serif;
+             font-weight: 300;
+             margin: 0   50px;
+           }
         }
-
         div{
             #maps{
                 display: flex;
