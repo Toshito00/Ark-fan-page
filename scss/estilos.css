@@ -47,8 +47,35 @@ main section {
   font-weight: 300;
   margin: 0 50px;
 }
+main section #maps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 40%;
+  width: 100%;
+  padding: 0;
+}
+main section .arkmap {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+main section .mapa {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 40%;
+}
 main section div .content img {
   width: 60%;
+}
+main section div .col-11-col-lg-7 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+main section div .mapa-col-12 {
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 footer {

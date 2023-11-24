@@ -16,11 +16,42 @@ main {
         font-weight: 300;
         margin: 0 50px;
 
+        #maps {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-right: 40%;
+            width: 100%;
+            padding: 0;
+        }
+        
+        .arkmap{
+            display: flex;
+            width: 100%;
+            align-items: center;
+        }
+        
+        .mapa{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            width: 40%;
+        }
+
         div {
             .content {
                 img {
                     width: 60%;
                 }
+                
+            }
+            .col-11-col-lg-7{
+                flex: 0 0 auto;
+                width: 91.66666667%;
+            }
+            .mapa-col-12{
+                flex: 0 0 auto;
+                width: 100%;
             }
         }
     }
