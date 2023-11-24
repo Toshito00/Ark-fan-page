@@ -3,6 +3,7 @@ main {
         display: flex;
         justify-content: center;
         flex-grow: 1;
+        font-family: $font-nav;
     }
 
     section {
@@ -13,7 +14,7 @@ main {
         div {
             .content {
                 h1 {
-                    font-family: 'Merriweather', serif;
+                    font-family: $font-nav;
                     font-weight: 700;
                     color: $colorsecundario;
                 }
@@ -23,7 +24,7 @@ main {
                 }
 
                 p {
-                    font-family: 'Merriweather', serif;
+                    font-family: $font-nav;
                     font-weight: 300;
                     margin: 0 50px;
                 }
