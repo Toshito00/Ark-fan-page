@@ -1,9 +1,11 @@
 main {
-    > h1 {
+    h1 {
         display: flex;
         justify-content: center;
         flex-grow: 1;
         font-family: $font-nav;
+        font-weight: 700;
+        color: $colorsecundario;
     }
 
     section {
@@ -13,11 +15,6 @@ main {
 
         div {
             .content {
-                h1 {
-                    font-family: $font-nav;
-                    font-weight: 700;
-                    color: $colorsecundario;
-                }
 
                 img {
                     width: 60%;

@@ -31,57 +31,26 @@ header ul li a {
   background-color: blanchedalmond;
 }
 
-main > h1 {
+main h1 {
   display: flex;
   justify-content: center;
   flex-grow: 1;
-}
-main > h1 section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main > h1 section div h1 {
   font-family: "Merriweather", serif;
   font-weight: 700;
   color: rgba(0, 4, 255, 0.63);
 }
-main > h1 section div img {
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section div .content img {
   width: 60%;
 }
-main > h1 section div p {
+main section div .content p {
   font-family: "Merriweather", serif;
   font-weight: 300;
   margin: 0 50px;
-}
-main > h1 section div #maps {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-right: 40%;
-  width: 100%;
-  padding: 0;
-}
-main > h1 section div #maps .arkmap {
-  display: flex;
-  width: 100%;
-  align-items: center;
-}
-main > h1 section div #maps .arkmap .mapa {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  width: 40%;
-}
-main > h1 section div #info {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-}
-main > h1 section div #info .portada {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
 }
 
 footer {
