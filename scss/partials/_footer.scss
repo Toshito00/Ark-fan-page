@@ -24,6 +24,15 @@ footer{
                 font-weight: 300;
                 padding: .5rem;
                 background-color: blanchedalmond;
+                 
+                
+            }
+            i{
+                transition: all 0.5s;
+                
+                &:hover{
+                    transform: scale(1.3);
+                }
             }
         }
     }

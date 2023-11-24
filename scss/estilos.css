@@ -45,6 +45,11 @@ main section {
   align-items: center;
   font-family: "Merriweather", serif;
   font-weight: 300;
+}
+main section .mapa {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
   margin: 0 50px;
 }
 main section #maps {
@@ -55,16 +60,15 @@ main section #maps {
   width: 100%;
   padding: 0;
 }
+main section #info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 main section .arkmap {
   display: flex;
   width: 100%;
   align-items: center;
-}
-main section .mapa {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  width: 40%;
 }
 main section div .content img {
   width: 60%;
@@ -102,6 +106,12 @@ footer ul li a {
   font-weight: 300;
   padding: 0.5rem;
   background-color: blanchedalmond;
+}
+footer ul li i {
+  transition: all 0.5s;
+}
+footer ul li i:hover {
+  transform: scale(1.3);
 }
 
 @media (max-width: 480px) {
