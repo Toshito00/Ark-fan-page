@@ -35,7 +35,16 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin: 0 100px;
 
+        }
+
+        #texto{
+           padding-right: 150px;
+        }
+
+        .p-sej{
+            padding: 0 50px;
         }
         
         .arkmap{

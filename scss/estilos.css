@@ -64,6 +64,13 @@ main section #info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 100px;
+}
+main section #texto {
+  padding-right: 150px;
+}
+main section .p-sej {
+  padding: 0 50px;
 }
 main section .arkmap {
   display: flex;
@@ -123,5 +130,11 @@ footer ul li i:hover {
   }
   .mapa {
     width: 100%;
+  }
+  #texto {
+    padding-right: 0 !important;
+  }
+  #info {
+    margin: 100px 100px !important;
   }
 }/*# sourceMappingURL=estilos.css.map */
